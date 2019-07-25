@@ -1,0 +1,20 @@
+{
+  "name": "chatheroku",
+  "version": "1.0.0",
+  "description": "Este es el chat de Heroku de Fatz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app-js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Alexander Nova",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "live-server": "^1.2.1",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "soket.io": "0.0.1-security"
+  }
+}

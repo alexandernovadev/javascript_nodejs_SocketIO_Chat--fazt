@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="estilos.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="icon" href="icono.ico" sizes="62x62">
+      <title>Chat Herouku</title>
+  </head>
+
+  <body>
+      <div class="w3-top">
+          <div class="w3-bar w3-red w3-center">
+              <h2>Chat de Socket.io</h2>
+          </div>
+      </div>
+      
+      <div class="w3-card-4 chat">
+        <div class="w3-padding w3-section w3-border w3-margin mensajes" 
+        id="chat"></div>
+
+        <div class="w3-section w3-margin">
+          <form id="message-box" class="w3-row">
+
+            <input  id="chat-messague" style="width: 85%"
+                    class="w3-col w3-input w3-border" type="text"/>
+        
+            <button type="submit" class="w3-hover-none w3-col w3-btn" 
+                    style="width: 15%; ">
+                <img src="send.svg" style="top: -8px;position: relative;"
+                  width="40" alt=""/>
+            </button>
+            
+          </form>
+        </div>
+      </div>
+
+
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
